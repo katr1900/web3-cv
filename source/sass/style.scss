@@ -1,0 +1,95 @@
+@import 'variables';
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    color: $link;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 100%;
+    
+}
+.left {
+    min-width: 220px;
+    background-color: $left-menu;
+    color: $left-text;
+    padding: 60px;
+    color:white;
+    h4{
+        margin-bottom: 0;
+    }
+}
+
+.experience{
+
+    flex-grow: 1;
+    padding: 60px;
+    margin-top: 20px;
+    
+    
+}
+.images{
+    width: 100px;
+    height: auto;
+}
+.cv{
+    text-align: left;
+}
+.list{
+    list-style-type: square;
+    padding:20px;
+}
+.star{
+    font-size:24px;
+    color: black;
+    
+   
+}
+
+.languages {
+    list-style-type: none;
+    padding: 0;
+    div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.info-list{
+  padding:20;
+  margin: 5px;
+}
+.work, .education, .skills, .references{
+    list-style-type: none;
+    padding-top: 60px;
+    line-height: 1.8;
+
+}
+.name{
+    font-weight: bold;
+}
+.skill{
+    list-style-type: none;
+    padding:0;
+    div{
+        display: flex;
+        justify-content: space-between;
+       width: 240px;
+        
+    }
+}
+.references{
+    padding:0;
+    padding-top: 60px;
+}
+
+
+    
+
