@@ -31,8 +31,6 @@ a {
     flex-grow: 1;
     padding: 60px;
     margin-top: 20px;
-    
-    
 }
 .images{
     width: 100px;
@@ -48,7 +46,6 @@ a {
 .start{
     color: black;
     margin-bottom: 50px;
-   
 }
 
 .languages {
@@ -63,25 +60,33 @@ a {
   padding:20;
   margin: 5px;
 }
-.work, .education, .skills, .references{
+.work, .education, .skills, .references {
     list-style-type: none;
     padding-top: 60px;
     line-height: 1.8;
-
 }
 .name{
     font-weight: bold;
 }
-.skill{
+.skill, .websites{
     list-style-type: none;
     padding:0;
     div{
         display: flex;
         justify-content: space-between;
-       width: 240px;
-        
+       width: 240px;  
     }
 }
+
+.websites li {
+    margin-bottom: 14px;
+}
+
+.websites a {
+    font-weight: bold;
+    color: $left-menu;
+}
+
 .references{
     padding:0;
 }
